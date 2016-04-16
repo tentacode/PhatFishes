@@ -7,8 +7,6 @@ public class FishMover : MonoBehaviour
 
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
-    private Animator animator;
-    private bool isShrink = true;
 
     public float rotationSpeed = 1.0f;
 
