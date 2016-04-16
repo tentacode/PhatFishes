@@ -75,4 +75,9 @@ public class FishPhysics : MonoBehaviour
 
         lastActionTime = Time.time;
     }
+
+    public bool IsShrinked()
+    {
+        return isShrink;
+    }
 }

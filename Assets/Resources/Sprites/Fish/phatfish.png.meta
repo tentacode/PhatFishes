@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f91d793d7e61d4802867b795b5f09a2c
-timeCreated: 1460805644
+timeCreated: 1460823143
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,6 +12,16 @@ TextureImporter:
     21300010: phatfish_blow_1
     21300012: phatfish_blow_2
     21300014: phatfish_blow_3
+    21300016: phatfish_0
+    21300018: phatfish_1
+    21300020: phatfish_2
+    21300022: phatfish_3
+    21300024: phatfish_4
+    21300026: phatfish_5
+    21300028: phatfish_6
+    21300030: phatfish_7
+    21300032: phatfish_8
+    21300034: phatfish_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -58,7 +68,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: phatfish_idle_big_0
+    - name: phatfish_0
       rect:
         serializedVersion: 2
         x: 0
@@ -76,7 +86,7 @@ TextureImporter:
         - {x: 16, y: -13}
         - {x: 16, y: 14}
         - {x: 15, y: 15}
-    - name: phatfish_idle_big_1
+    - name: phatfish_1
       rect:
         serializedVersion: 2
         x: 32
@@ -97,7 +107,7 @@ TextureImporter:
         - {x: 14, y: -10}
         - {x: 16, y: -4}
         - {x: 16, y: 14}
-    - name: phatfish_idle_flat_0
+    - name: phatfish_2
       rect:
         serializedVersion: 2
         x: 64
@@ -115,7 +125,7 @@ TextureImporter:
         - {x: 6, y: -8}
         - {x: 16, y: -5}
         - {x: 16, y: 9}
-    - name: phatfish_idle_flat_1
+    - name: phatfish_3
       rect:
         serializedVersion: 2
         x: 96
@@ -134,7 +144,7 @@ TextureImporter:
         - {x: 16, y: -6}
         - {x: 16, y: 7}
         - {x: 7, y: 9}
-    - name: phatfish_blow_0
+    - name: phatfish_4
       rect:
         serializedVersion: 2
         x: 128
@@ -152,7 +162,7 @@ TextureImporter:
         - {x: 6, y: -8}
         - {x: 16, y: -5}
         - {x: 16, y: 9}
-    - name: phatfish_blow_1
+    - name: phatfish_5
       rect:
         serializedVersion: 2
         x: 160
@@ -170,7 +180,7 @@ TextureImporter:
         - {x: 16, y: 0}
         - {x: 16, y: 9}
         - {x: 10, y: 11}
-    - name: phatfish_blow_2
+    - name: phatfish_6
       rect:
         serializedVersion: 2
         x: 192
@@ -188,7 +198,7 @@ TextureImporter:
         - {x: 12, y: -13}
         - {x: 16, y: -5}
         - {x: 16, y: 13}
-    - name: phatfish_blow_3
+    - name: phatfish_7
       rect:
         serializedVersion: 2
         x: 224
@@ -206,6 +216,42 @@ TextureImporter:
         - {x: 16, y: -13}
         - {x: 16, y: 14}
         - {x: 15, y: 15}
+    - name: phatfish_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 15}
+        - {x: -15, y: 10}
+        - {x: -15, y: -15}
+        - {x: 8, y: -15}
+        - {x: 16, y: -13}
+        - {x: 16, y: 14}
+        - {x: 15, y: 15}
+    - name: phatfish_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 9}
+        - {x: -16, y: 3}
+        - {x: -16, y: -3}
+        - {x: -12, y: -8}
+        - {x: 6, y: -8}
+        - {x: 16, y: -5}
+        - {x: 16, y: 9}
     outline: []
   spritePackingTag: 
   userData: 
