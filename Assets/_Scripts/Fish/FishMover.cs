@@ -10,6 +10,8 @@ public class FishMover : MonoBehaviour
     private Animator animator;
     private bool isShrink = true;
 
+    public float rotationSpeed = 1.0f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,12 +22,17 @@ public class FishMover : MonoBehaviour
     {
         if (horizontalValue != 0) {
             rb.AddForce(Vector2.right * horizontalValue * horizontalSpeed);
-
-            spriteRenderer.flipX = horizontalValue > 0;
         }
 
         if (verticalValue != 0) {
             rb.AddForce(Vector2.up * verticalValue * verticalSpeed);
         }
+
+        Vector2 v = rb.velocity;
+        var angle = Mathf.Atan2(v.y, v.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        var currentZRotation = transform.rotation.eulerAngles.z;
+        spriteRenderer.flipY = currentZRotation > 90 && currentZRotation <= 270;
     }
 }

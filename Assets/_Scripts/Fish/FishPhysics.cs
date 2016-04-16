@@ -41,7 +41,6 @@ public class FishPhysics : MonoBehaviour
 
     void Shrink()
     {
-        Debug.Log("Shrink");
         rb.mass = shrinkMass;
         rb.drag = shrinkDrag;
         boxCollider.enabled = true;
@@ -53,7 +52,6 @@ public class FishPhysics : MonoBehaviour
 
     void Blow()
     {
-        Debug.Log("Blow");
         rb.mass = blowMass;
         rb.drag = blowDrag;
         circleCollider.enabled = true;
@@ -68,8 +66,6 @@ public class FishPhysics : MonoBehaviour
         if (Time.time < lastActionTime + cooldown) {
             return;
         }
-
-        Debug.Log("Toggle");
 
         if (isShrink) {
             Blow();
