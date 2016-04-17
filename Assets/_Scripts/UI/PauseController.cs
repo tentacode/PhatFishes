@@ -32,6 +32,14 @@ public class PauseController : MonoBehaviour
         Application.Quit();
     }
 
+    public void ToggleMusic()
+    {
+        GameObject soundManager = GameObject.Find("SoundManager");
+        if (soundManager != null) {
+            soundManager.GetComponent<SoundManager>().ToggleMusic();
+        }
+    }
+
 	void Update()
 	{
         if (Input.GetButtonDown("MenuCancel") || Input.GetKeyDown("tab")) {
