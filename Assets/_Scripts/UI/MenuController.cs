@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 ﻿using UnityEngine.SceneManagement;
 ﻿using UnityEngine.UI;
+﻿using UnityEngine.Serialization;
 
 public class MenuController : MonoBehaviour
 {
+    public GameObject bubbleTitle;
     public GameObject mainMenu;
     public GameObject optionMenu;
+    public GameObject gameSetupMenu;
 
     public InputField player1Name;
     public InputField player2Name;
@@ -15,6 +18,13 @@ public class MenuController : MonoBehaviour
     private bool isSetup = true;
 
     void Start()
+    {
+        InitPlayerNames();
+
+        SwitchToMainMenu();
+    }
+
+    void InitPlayerNames()
     {
         if (PlayerPrefs.HasKey("Player1Name")) {
             player1Name.text = PlayerPrefs.GetString("Player1Name");
@@ -33,8 +43,6 @@ public class MenuController : MonoBehaviour
         }
 
         isSetup = false;
-
-        SwitchToMainMenu();
     }
 
     void Update()
@@ -46,17 +54,44 @@ public class MenuController : MonoBehaviour
 
     public void SwitchToMainMenu()
     {
+        bubbleTitle.SetActive(true);
+        gameSetupMenu.SetActive(false);
         optionMenu.SetActive(false);
         mainMenu.SetActive(true);
     }
 
     public void SwitchToOptions()
     {
+        bubbleTitle.SetActive(false);
         mainMenu.SetActive(false);
+        gameSetupMenu.SetActive(false);
         optionMenu.SetActive(true);
     }
 
-    public void SwitchToGame()
+    public void SwitchToGameSetup()
+    {
+        bubbleTitle.SetActive(false);
+        mainMenu.SetActive(false);
+        optionMenu.SetActive(false);
+        gameSetupMenu.SetActive(true);
+    }
+
+    public void SwitchToGame2Players()
+    {
+        SwitchToGame(2);
+    }
+
+    public void SwitchToGame3Players()
+    {
+        SwitchToGame(3);
+    }
+
+    public void SwitchToGame4Players()
+    {
+        SwitchToGame(4);
+    }
+
+    void SwitchToGame(int playerNumber)
     {
         SceneManager.LoadScene("Game");
         SceneManager.LoadScene("Pause", LoadSceneMode.Additive);

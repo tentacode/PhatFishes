@@ -24,9 +24,7 @@ public class PauseController : MonoBehaviour
 
     public void Restart()
     {
-
-        SceneManager.LoadScene("Game");
-        SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Menu");
     }
 
     public void Quit()
@@ -36,7 +34,7 @@ public class PauseController : MonoBehaviour
 
 	void Update()
 	{
-        if (Input.GetButtonDown("MenuCancel")) {
+        if (Input.GetButtonDown("MenuCancel") || Input.GetKeyDown("tab")) {
             if (pauseMenu.activeSelf) {
                 Resume();
             } else {

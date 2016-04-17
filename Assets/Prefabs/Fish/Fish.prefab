@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isShrink: 1
-  cooldown: 0.5
+  cooldown: 0.1
   shrinkMass: 1
   shrinkDrag: 0.25
   blowMass: 10

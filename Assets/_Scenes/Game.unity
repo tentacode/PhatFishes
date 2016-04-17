@@ -169,7 +169,7 @@ GameObject:
   - 224: {fileID: 212278916}
   - 222: {fileID: 212278917}
   m_Layer: 5
-  m_Name: Player1
+  m_Name: Player1UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,6 +276,7 @@ GameObject:
   m_Component:
   - 224: {fileID: 378904965}
   - 222: {fileID: 378904966}
+  - 114: {fileID: 378904967}
   m_Layer: 5
   m_Name: TopBar
   m_TagString: Untagged
@@ -310,6 +311,22 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 378904964}
+--- !u!114 &378904967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 378904964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b27a373109a34f55804bef8f547a6cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSprites:
+  - {fileID: 21300000, guid: 383f787e5533b43d8a9696741d00d3af, type: 3}
+  - {fileID: 21300002, guid: 383f787e5533b43d8a9696741d00d3af, type: 3}
+  - {fileID: 21300004, guid: 383f787e5533b43d8a9696741d00d3af, type: 3}
+  - {fileID: 21300006, guid: 383f787e5533b43d8a9696741d00d3af, type: 3}
 --- !u!1 &388936124
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +517,7 @@ GameObject:
   - 224: {fileID: 589075651}
   - 222: {fileID: 589075652}
   m_Layer: 5
-  m_Name: Player2
+  m_Name: Player2UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1053,6 +1070,10 @@ Prefab:
       propertyPath: verticalSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 11406888, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: cooldown
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -1291,7 +1312,7 @@ GameObject:
   - 224: {fileID: 1221926414}
   - 222: {fileID: 1221926415}
   m_Layer: 5
-  m_Name: Player3
+  m_Name: Player3UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1496,7 +1517,7 @@ GameObject:
   - 224: {fileID: 1483393064}
   - 222: {fileID: 1483393065}
   m_Layer: 5
-  m_Name: Player4
+  m_Name: Player4UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

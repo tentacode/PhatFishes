@@ -74,4 +74,9 @@ public class FishHealth : MonoBehaviour
 
         rb.gravityScale = -2;
     }
+
+    public int GetHealth()
+    {
+        return health;
+    }
 }
