@@ -42,7 +42,7 @@ public class FishHealth : MonoBehaviour
 
     void Hurt()
     {
-        if (IsInvulnerable()) {
+        if (IsInvulnerable() || health == 0) {
             return;
         }
 
