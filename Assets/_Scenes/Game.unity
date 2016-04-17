@@ -132,6 +132,10 @@ Prefab:
       propertyPath: playerIndex
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 21273316, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 24035215aeb0345caa764fd5f8b87f28, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -259,6 +263,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 21273316, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 70f9fe97d0e644ae1b9a75bd5efdd053, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -407,7 +415,8 @@ Prefab:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1039065930
@@ -752,6 +761,10 @@ Prefab:
       propertyPath: playerIndex
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 21273316, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed81fab3212945f1b9bff0d603b0c56, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0

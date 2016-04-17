@@ -37,7 +37,7 @@ public class PauseController : MonoBehaviour
 	void Update()
 	{
         if (Input.GetButtonDown("MenuCancel")) {
-            if (pauseMenu.active) {
+            if (pauseMenu.activeSelf) {
                 Resume();
             } else {
                 Pause();

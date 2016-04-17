@@ -18,9 +18,9 @@ public class FishHealth : MonoBehaviour
     void Update()
     {
         if (IsInvulnerable()) {
-            spriteRenderer.color = Color.Lerp(Color.white, invulnerableColor, Mathf.PingPong(Time.time, 0.2f));
+            spriteRenderer.material.SetColor("_ColorTint", invulnerableColor);
         } else {
-            spriteRenderer.color = Color.white;
+            spriteRenderer.material.SetColor("_ColorTint", Color.white);
         }
     }
 

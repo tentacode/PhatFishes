@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invulnerabilityFrame: 1
-  invulnerableColor: {r: 0.78431374, g: 0, b: 0, a: 1}
+  invulnerableColor: {r: 1, g: 0.6102941, b: 0.6102941, a: 1}
 --- !u!114 &11471298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -176,7 +176,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 23ad70413fe9548e4b820aadb9a87c86, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
