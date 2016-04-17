@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Player3
   m_Shader: {fileID: 4800000, guid: 6b00fe4939c624033a31d85c4edcc9e9, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: PIXELSNAP_ON
   m_LightmapFlags: 5
   m_CustomRenderQueue: 3000
   stringTagMap: {}
@@ -94,7 +94,7 @@ Material:
       data:
         first:
           name: PixelSnap
-        second: 0
+        second: 1
       data:
         first:
           name: _Parallax

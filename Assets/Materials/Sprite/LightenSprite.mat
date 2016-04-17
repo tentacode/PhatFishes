@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Player4
-  m_Shader: {fileID: 4800000, guid: 6b00fe4939c624033a31d85c4edcc9e9, type: 3}
-  m_ShaderKeywords: PIXELSNAP_ON
+  m_Name: LightenSprite
+  m_Shader: {fileID: 10800, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: 3000
   stringTagMap: {}
@@ -94,7 +94,7 @@ Material:
       data:
         first:
           name: PixelSnap
-        second: 1
+        second: 0
       data:
         first:
           name: _Parallax
@@ -131,14 +131,6 @@ Material:
         first:
           name: _Metallic
         second: 0
-      data:
-        first:
-          name: _ReplaceColorCutoff
-        second: 0.1
-      data:
-        first:
-          name: _AlphaColorCutoff
-        second: 0
     m_Colors:
       data:
         first:
@@ -148,19 +140,3 @@ Material:
         first:
           name: _Color
         second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _ColorTint
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _Colorin
-        second: {r: 0.9803922, g: 0.9803922, b: 0.6862745, a: 1}
-      data:
-        first:
-          name: _Colorout
-        second: {r: 1, g: 0.5294118, b: 0.5294118, a: 1}
-      data:
-        first:
-          name: _AlphaColor
-        second: {r: 0, g: 0, b: 0, a: 1}
