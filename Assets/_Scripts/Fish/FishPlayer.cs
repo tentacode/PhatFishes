@@ -7,7 +7,6 @@ public class FishPlayer : MonoBehaviour
 
 	void Start()
 	{
-
 	}
 
 	void Update()

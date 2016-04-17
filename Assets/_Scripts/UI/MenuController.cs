@@ -59,6 +59,7 @@ public class MenuController : MonoBehaviour
     public void SwitchToGame()
     {
         SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
     }
 
     public void Exit()
