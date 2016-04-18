@@ -252,10 +252,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 11458096, guid: d03c92ca556704c16ab5ff450f06b01d, type: 2}
-      propertyPath: gameMusicClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 78c34754711ba490cad28c828e27267e, type: 3}
+    - target: {fileID: 8209742, guid: d03c92ca556704c16ab5ff450f06b01d, type: 2}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d03c92ca556704c16ab5ff450f06b01d, type: 2}
   m_IsPrefabParent: 0
