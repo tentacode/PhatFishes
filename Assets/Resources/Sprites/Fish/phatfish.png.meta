@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f91d793d7e61d4802867b795b5f09a2c
-timeCreated: 1460979556
+timeCreated: 1460995038
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -77,28 +77,28 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10, y: 15}
-        - {x: -15, y: 10}
-        - {x: -15, y: -15}
-        - {x: 8, y: -15}
-        - {x: 16, y: -13}
-        - {x: 16, y: 14}
-        - {x: 15, y: 15}
+      - - {x: -8, y: 15}
+        - {x: -15, y: 8}
+        - {x: -15, y: -8}
+        - {x: -8, y: -15}
+        - {x: 6, y: -15}
+        - {x: 17, y: -9}
+        - {x: 17, y: 15}
     - name: phatfish_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 34
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 14, y: 15}
@@ -109,180 +109,190 @@ TextureImporter:
         - {x: -12, y: -15}
         - {x: 6, y: -15}
         - {x: 14, y: -10}
-        - {x: 16, y: -4}
-        - {x: 16, y: 14}
+        - {x: 17, y: 0}
+        - {x: 17, y: 13}
     - name: phatfish_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 68
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -9, y: 9}
-        - {x: -16, y: 3}
+      - - {x: -10, y: 9}
+        - {x: -16, y: 6}
         - {x: -16, y: -3}
-        - {x: -12, y: -8}
-        - {x: 6, y: -8}
-        - {x: 16, y: -5}
-        - {x: 16, y: 9}
+        - {x: -9, y: -8}
+        - {x: 3, y: -8}
+        - {x: 9, y: -7}
+        - {x: 16, y: -3}
+        - {x: 17, y: -1}
+        - {x: 17, y: 9}
     - name: phatfish_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 102
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -11, y: 9}
+      - - {x: -10, y: 9}
         - {x: -16, y: 4}
-        - {x: -16, y: -3}
+        - {x: -16, y: -5}
         - {x: -9, y: -8}
-        - {x: 4, y: -8}
-        - {x: 16, y: -6}
-        - {x: 16, y: 7}
-        - {x: 7, y: 9}
+        - {x: 12, y: -8}
+        - {x: 17, y: -4}
+        - {x: 17, y: 7}
+        - {x: 4, y: 9}
     - name: phatfish_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -9, y: 9}
-        - {x: -16, y: 3}
+      - - {x: -10, y: 9}
+        - {x: -16, y: 6}
         - {x: -16, y: -3}
-        - {x: -12, y: -8}
-        - {x: 6, y: -8}
-        - {x: 16, y: -5}
-        - {x: 16, y: 9}
+        - {x: -9, y: -8}
+        - {x: 3, y: -8}
+        - {x: 9, y: -7}
+        - {x: 16, y: -3}
+        - {x: 17, y: -1}
+        - {x: 17, y: 9}
     - name: phatfish_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 11}
-        - {x: -16, y: -5}
-        - {x: -14, y: -10}
+      - - {x: 13, y: 10}
+        - {x: 4, y: 11}
+        - {x: -9, y: 11}
+        - {x: -16, y: 5}
+        - {x: -16, y: -2}
+        - {x: -10, y: -10}
         - {x: 5, y: -10}
         - {x: 16, y: 0}
-        - {x: 16, y: 9}
-        - {x: 10, y: 11}
+        - {x: 16, y: 6}
     - name: phatfish_6
       rect:
         serializedVersion: 2
-        x: 192
+        x: 204
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -11, y: 13}
-        - {x: -15, y: 7}
-        - {x: -15, y: -6}
-        - {x: -13, y: -13}
-        - {x: 12, y: -13}
-        - {x: 16, y: -5}
-        - {x: 16, y: 13}
+      - - {x: 15, y: 13}
+        - {x: -4, y: 13}
+        - {x: -9, y: 11}
+        - {x: -15, y: 6}
+        - {x: -15, y: -4}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 17, y: -5}
+        - {x: 17, y: 11}
     - name: phatfish_7
       rect:
         serializedVersion: 2
-        x: 224
+        x: 238
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10, y: 15}
-        - {x: -15, y: 10}
-        - {x: -15, y: -15}
-        - {x: 8, y: -15}
-        - {x: 16, y: -13}
-        - {x: 16, y: 14}
-        - {x: 15, y: 15}
+      - - {x: -8, y: 15}
+        - {x: -15, y: 8}
+        - {x: -15, y: -8}
+        - {x: -8, y: -15}
+        - {x: 6, y: -15}
+        - {x: 17, y: -9}
+        - {x: 17, y: 15}
     - name: phatfish_8
       rect:
         serializedVersion: 2
-        x: 256
+        x: 272
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10, y: 15}
-        - {x: -15, y: 10}
-        - {x: -15, y: -15}
-        - {x: 8, y: -15}
-        - {x: 16, y: -13}
-        - {x: 16, y: 14}
-        - {x: 15, y: 15}
+      - - {x: -8, y: 15}
+        - {x: -15, y: 8}
+        - {x: -15, y: -8}
+        - {x: -8, y: -15}
+        - {x: 6, y: -15}
+        - {x: 17, y: -9}
+        - {x: 17, y: 15}
     - name: phatfish_9
       rect:
         serializedVersion: 2
-        x: 288
+        x: 306
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -9, y: 9}
-        - {x: -16, y: 3}
+      - - {x: -10, y: 9}
+        - {x: -16, y: 6}
         - {x: -16, y: -3}
-        - {x: -12, y: -8}
-        - {x: 6, y: -8}
-        - {x: 16, y: -5}
-        - {x: 16, y: 9}
+        - {x: -9, y: -8}
+        - {x: 3, y: -8}
+        - {x: 9, y: -7}
+        - {x: 16, y: -3}
+        - {x: 17, y: -1}
+        - {x: 17, y: 9}
     - name: phatfish_10
       rect:
         serializedVersion: 2
-        x: 320
+        x: 340
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10, y: 15}
-        - {x: -15, y: 10}
-        - {x: -15, y: -15}
-        - {x: 8, y: -15}
-        - {x: 16, y: -13}
-        - {x: 16, y: 14}
-        - {x: 15, y: 15}
+      - - {x: -8, y: 15}
+        - {x: -15, y: 8}
+        - {x: -15, y: -8}
+        - {x: -8, y: -15}
+        - {x: 6, y: -15}
+        - {x: 17, y: -9}
+        - {x: 17, y: 15}
     - name: phatfish_11
       rect:
         serializedVersion: 2
-        x: 352
+        x: 374
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 14, y: 15}
@@ -293,45 +303,47 @@ TextureImporter:
         - {x: -12, y: -15}
         - {x: 6, y: -15}
         - {x: 14, y: -10}
-        - {x: 16, y: -4}
-        - {x: 16, y: 14}
+        - {x: 17, y: 0}
+        - {x: 17, y: 13}
     - name: phatfish_12
       rect:
         serializedVersion: 2
-        x: 384
+        x: 408
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -9, y: 9}
-        - {x: -16, y: 3}
+      - - {x: -10, y: 9}
+        - {x: -16, y: 6}
         - {x: -16, y: -3}
-        - {x: -12, y: -8}
-        - {x: 6, y: -8}
-        - {x: 16, y: -5}
-        - {x: 16, y: 9}
+        - {x: -9, y: -8}
+        - {x: 3, y: -8}
+        - {x: 9, y: -7}
+        - {x: 16, y: -3}
+        - {x: 17, y: -1}
+        - {x: 17, y: 9}
     - name: phatfish_13
       rect:
         serializedVersion: 2
-        x: 416
+        x: 442
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -11, y: 9}
+      - - {x: -10, y: 9}
         - {x: -16, y: 4}
-        - {x: -16, y: -3}
+        - {x: -16, y: -5}
         - {x: -9, y: -8}
-        - {x: 4, y: -8}
-        - {x: 16, y: -6}
-        - {x: 16, y: 7}
-        - {x: 7, y: 9}
+        - {x: 12, y: -8}
+        - {x: 17, y: -4}
+        - {x: 17, y: 7}
+        - {x: 4, y: 9}
     outline: []
   spritePackingTag: 
   userData: 
