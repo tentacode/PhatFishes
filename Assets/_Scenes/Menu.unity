@@ -270,7 +270,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 956006623}
+      - m_Target: {fileID: 1315557465}
         m_MethodName: ToggleIntroMusic
         m_Mode: 1
         m_Arguments:
@@ -2228,12 +2228,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 883972274}
---- !u!114 &956006623 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11458096, guid: d03c92ca556704c16ab5ff450f06b01d,
-    type: 2}
-  m_PrefabInternal: {fileID: 381427984}
-  m_Script: {fileID: 11500000, guid: 9c3a78f3ce09b4baeb20e3f569dc9d6d, type: 3}
 --- !u!1 &999481573
 GameObject:
   m_ObjectHideFlags: 0

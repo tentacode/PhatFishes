@@ -14,12 +14,14 @@ public class PauseController : MonoBehaviour
 
     public void Resume()
     {
+        Cursor.visible = false;
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
     }
 
     public void Pause()
     {
+        Cursor.visible = true;
         pauseMenu.SetActive(true);
         Time.timeScale = 0;
     }
@@ -54,10 +56,8 @@ public class PauseController : MonoBehaviour
 
         if (Input.GetButtonDown("MenuCancel") || Input.GetKeyDown("tab")) {
             if (pauseMenu.activeSelf) {
-                Cursor.visible = false;
                 Resume();
             } else {
-                Cursor.visible = true;
                 Pause();
             }
         }

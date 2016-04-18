@@ -18,10 +18,12 @@ public class MenuController : MonoBehaviour
     public Sprite cursorSprite;
 
     private bool isSetup = true;
+    private SoundManager soundManager;
 
     void Start()
     {
-        GameObject.Find("SoundManager").GetComponent<SoundManager>().PlayIntroMusic();
+        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+        soundManager.PlayIntroMusic();
 
         InitPlayerNames();
         SetMouseCursor();
@@ -59,6 +61,11 @@ public class MenuController : MonoBehaviour
         if (mainMenu.activeSelf == false && Input.GetButtonDown("MenuCancel")){
             SwitchToMainMenu();
         }
+    }
+
+    public void ToggleIntroMusic()
+    {
+        soundManager.ToggleIntroMusic();
     }
 
     public void SwitchToMainMenu()
