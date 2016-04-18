@@ -36,7 +36,7 @@ public class PauseController : MonoBehaviour
     {
         GameObject soundManager = GameObject.Find("SoundManager");
         if (soundManager != null) {
-            soundManager.GetComponent<SoundManager>().ToggleMusic();
+            soundManager.GetComponent<SoundManager>().ToggleGameMusic();
         }
     }
 

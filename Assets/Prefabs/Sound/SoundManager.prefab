@@ -125,6 +125,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5943cc049ab61443eba8a0f924948e31, type: 3}
   - {fileID: 8300000, guid: 5d458ef7461ef40b3a7b9a59eba7295e, type: 3}
   - {fileID: 8300000, guid: 06c3fe2e0f2b643b394e2a5b2c26b7d5, type: 3}
+  introMusicClip: {fileID: 8300000, guid: 106173e319976437a80f430e004069aa, type: 3}
+  gameMusicClip: {fileID: 8300000, guid: 106173e319976437a80f430e004069aa, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

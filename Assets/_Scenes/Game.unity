@@ -2705,7 +2705,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11420128, guid: f8d4b8e97b74c411eb2abc926388320f, type: 2}
       propertyPath: zoomFactor
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8d4b8e97b74c411eb2abc926388320f, type: 2}

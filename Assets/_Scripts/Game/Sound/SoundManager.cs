@@ -5,6 +5,8 @@ using System.Collections.Generic;
 public class SoundManager : MonoBehaviour
 {
     public List<AudioClip> victoryClips;
+    public AudioClip introMusicClip;
+    public AudioClip gameMusicClip;
 
     private AudioSource audioSource;
 
@@ -14,12 +16,15 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
         } else {
             DontDestroyOnLoad(gameObject);
+            audioSource = GetComponent<AudioSource>();
         }
 	}
 
-    void Start()
+    public void PlayIntroMusic()
     {
-        audioSource = GetComponent<AudioSource>();
+        audioSource.Stop();
+        audioSource.clip = introMusicClip;
+        audioSource.loop = true;
 
         if (PlayerPrefs.GetInt("DisableMusic", 0) == 0) {
             audioSource.Play();
@@ -29,23 +34,42 @@ public class SoundManager : MonoBehaviour
     public void PlayGameMusic()
     {
         audioSource.Stop();
+        audioSource.clip = gameMusicClip;
+        audioSource.loop = true;
+
+        if (PlayerPrefs.GetInt("DisableMusic", 0) == 0) {
+            audioSource.Play();
+        }
     }
 
     public void PlayVictory()
     {
         AudioClip victoryClip = victoryClips[Random.Range(0, victoryClips.Count)];
         audioSource.Stop();
-        audioSource.PlayOneShot(victoryClip);
+        audioSource.clip = victoryClip;
+        audioSource.loop = false;
+        audioSource.Play();
     }
 
-    public void ToggleMusic()
+    public void ToggleIntroMusic()
     {
         if (audioSource.isPlaying) {
             audioSource.Stop();
             PlayerPrefs.SetInt("DisableMusic", 1);
         } else {
-            audioSource.Play();
             PlayerPrefs.SetInt("DisableMusic", 0);
+            PlayIntroMusic();
+        }
+    }
+
+    public void ToggleGameMusic()
+    {
+        if (audioSource.isPlaying) {
+            audioSource.Stop();
+            PlayerPrefs.SetInt("DisableMusic", 1);
+        } else {
+            PlayerPrefs.SetInt("DisableMusic", 0);
+            PlayGameMusic();
         }
     }
 }
