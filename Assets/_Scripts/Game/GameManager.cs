@@ -95,6 +95,7 @@ public class GameManager : MonoBehaviour
 
     void Draw()
     {
+        jellyFish.GetComponent<Animator>().SetTrigger("JellyfishCool");
         cameraController.Focus(jellyFish);
         endGameText.text = "DRAW!";
         endGameUI.SetActive(true);

@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: a88a4068646d4457c98914095372f1d7
+timeCreated: 1461011598
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jellyfish_0
+    21300002: jellyfish_1
+    21300004: jellyfish_2
+    21300006: jellyfish_3
+    21300008: jellyfish_4
+    21300010: jellyfish_5
+    21300012: jellyfish_6
+    21300014: jellyfish_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: jellyfish_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 18}
+        - {x: -18, y: 7}
+        - {x: -18, y: -12}
+        - {x: -9, y: -21}
+        - {x: 15, y: -21}
+        - {x: 18, y: -11}
+        - {x: 18, y: 18}
+    - name: jellyfish_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 17}
+        - {x: -19, y: 6}
+        - {x: -19, y: -15}
+        - {x: -13, y: -18}
+        - {x: 19, y: -18}
+        - {x: 19, y: 8}
+        - {x: 12, y: 17}
+    - name: jellyfish_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 15}
+        - {x: -20, y: 9}
+        - {x: -20, y: -7}
+        - {x: -12, y: -17}
+        - {x: 14, y: -17}
+        - {x: 20, y: -12}
+        - {x: 20, y: 6}
+        - {x: 15, y: 15}
+    - name: jellyfish_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -19, y: 5}
+        - {x: -19, y: -11}
+        - {x: -12, y: -17}
+        - {x: 12, y: -17}
+        - {x: 19, y: -7}
+        - {x: 19, y: 7}
+        - {x: 9, y: 16}
+    - name: jellyfish_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 18}
+        - {x: -18, y: 7}
+        - {x: -18, y: -12}
+        - {x: -9, y: -21}
+        - {x: 15, y: -21}
+        - {x: 18, y: -11}
+        - {x: 18, y: 18}
+    - name: jellyfish_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 17}
+        - {x: -19, y: 6}
+        - {x: -19, y: -15}
+        - {x: -13, y: -18}
+        - {x: 19, y: -18}
+        - {x: 19, y: 8}
+        - {x: 12, y: 17}
+    - name: jellyfish_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 15}
+        - {x: -20, y: 9}
+        - {x: -20, y: -7}
+        - {x: -12, y: -17}
+        - {x: 14, y: -17}
+        - {x: 20, y: -12}
+        - {x: 20, y: 6}
+        - {x: 15, y: 15}
+    - name: jellyfish_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -19, y: 5}
+        - {x: -19, y: -11}
+        - {x: -12, y: -17}
+        - {x: 12, y: -17}
+        - {x: 19, y: -7}
+        - {x: 19, y: 7}
+        - {x: 9, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

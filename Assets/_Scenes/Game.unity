@@ -160,6 +160,10 @@ Prefab:
       propertyPath: verticalSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 101006, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -718,6 +722,10 @@ Prefab:
       propertyPath: verticalSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 101006, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -746,7 +754,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1598840196}
+  - {fileID: 1568410466}
   - {fileID: 2000501207}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1325,6 +1333,10 @@ Prefab:
       propertyPath: cooldown
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 101006, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -1881,7 +1893,7 @@ MonoBehaviour:
   player3: {fileID: 1633220631}
   player4: {fileID: 141602510}
   cameraController: {fileID: 1093267413}
-  jellyFish: {fileID: 1598840195}
+  jellyFish: {fileID: 1568410463}
   endGameUI: {fileID: 1624245563}
   endGameText: {fileID: 1710493433}
   randomWinTexts:
@@ -1899,6 +1911,132 @@ MonoBehaviour:
   - DEY HATIN
   - LOSERS
   - HATERS GONNA HATE
+--- !u!1 &1568410463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1568410466}
+  - 212: {fileID: 1568410465}
+  - 95: {fileID: 1568410464}
+  - 58: {fileID: 1568410467}
+  - 50: {fileID: 1568410468}
+  - 114: {fileID: 1568410469}
+  m_Layer: 0
+  m_Name: Jellyfish
+  m_TagString: Hazard
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1568410464
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1568410463}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cc53869cdac84d32a1d2f74c95b5984, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!212 &1568410465
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1568410463}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 471295497
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a88a4068646d4457c98914095372f1d7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &1568410466
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1568410463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 472054276}
+  m_RootOrder: 0
+--- !u!58 &1568410467
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1568410463}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 90068d6037010469984c09cc44c0ef58, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.5213509
+--- !u!50 &1568410468
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1568410463}
+  m_UseAutoMass: 0
+  m_Mass: 60
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 10
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1568410469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1568410463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfc4fe326ceba4f0dae65030cdc70972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpHeight: 6
+  jumpWidth: 3
+  jumpFrequency: 3
+  jumpDuration: 1
+  fallSpeed: 2
 --- !u!1 &1582701060
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,79 +2158,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1582701060}
---- !u!1 &1598840195
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1598840196}
-  - 212: {fileID: 1598840198}
-  - 61: {fileID: 1598840197}
-  m_Layer: 0
-  m_Name: JellyFish
-  m_TagString: Hazard
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1598840196
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1598840195}
-  m_LocalRotation: {x: 0, y: 0, z: 0.26554686, w: -0.96409804}
-  m_LocalPosition: {x: -0.3, y: 4, z: 0}
-  m_LocalScale: {x: 2.1677217, y: 2.0414805, z: 1}
-  m_Children: []
-  m_Father: {fileID: 472054276}
-  m_RootOrder: 0
---- !u!61 &1598840197
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1598840195}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.6000003, y: 1.6000004}
---- !u!212 &1598840198
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1598840195}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 0
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 471295497
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 3995abad51142483287c7fce150a0dd1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &1624245563
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,6 +2270,10 @@ Prefab:
     - target: {fileID: 11471298, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
       propertyPath: verticalSpeed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 101006, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
