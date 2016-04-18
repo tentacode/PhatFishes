@@ -5,6 +5,9 @@ public class FishPhysics : MonoBehaviour
     public bool isShrink = false;
     public float cooldown = 1.0f;
 
+    public AudioClip blowAudioClip;
+    private AudioSource audioSource;
+
     [Header("Shrink physics")]
     public float shrinkMass;
     public float shrinkDrag;
@@ -24,6 +27,7 @@ public class FishPhysics : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
         circleCollider = GetComponent<CircleCollider2D>();
         boxCollider = GetComponent<BoxCollider2D>();
 
@@ -52,6 +56,11 @@ public class FishPhysics : MonoBehaviour
 
     void Blow()
     {
+        Debug.Log("Play");
+        audioSource.Stop();
+        audioSource.clip = blowAudioClip;
+        audioSource.Play();
+
         rb.mass = blowMass;
         rb.drag = blowDrag;
         circleCollider.enabled = true;

@@ -11,6 +11,9 @@ public class FishHealth : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private GameManager gameManager;
 
+    public AudioClip hurtAudioClip;
+    public AudioClip deadAudioClip;
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -49,17 +52,22 @@ public class FishHealth : MonoBehaviour
         }
 
         health -= 1;
+
+
         if (health == 0) {
             Die();
 
             return;
         }
 
+        GetComponent<AudioSource>().PlayOneShot(hurtAudioClip, 0.6f);
+
         lastHitTime = Time.time;
     }
 
     void Die()
     {
+        GetComponent<AudioSource>().PlayOneShot(deadAudioClip, 0.6f);
         GetComponent<FishInput>().enabled = false;
 
         Animator animator = GetComponent<Animator>();

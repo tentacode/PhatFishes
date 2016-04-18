@@ -164,6 +164,10 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 400404, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -255,6 +259,10 @@ Prefab:
     - target: {fileID: 8209742, guid: d03c92ca556704c16ab5ff450f06b01d, type: 2}
       propertyPath: m_Volume
       value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209742, guid: d03c92ca556704c16ab5ff450f06b01d, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d03c92ca556704c16ab5ff450f06b01d, type: 2}
@@ -725,6 +733,10 @@ Prefab:
     - target: {fileID: 101006, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 400404, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
@@ -1321,22 +1333,6 @@ Prefab:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
-    - target: {fileID: 11471298, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
-      propertyPath: horizontalSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11471298, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
-      propertyPath: verticalSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11406888, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
-      propertyPath: cooldown
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 101006, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -1427,48 +1423,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2099996011}
   m_Script: {fileID: 11500000, guid: 2cf98894e62904280bb1584b2d7933a5, type: 3}
---- !u!1001 &1123117142
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1916132489}
-    m_Modifications:
-    - target: {fileID: 470758, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.14000034
-      objectReference: {fileID: 0}
-    - target: {fileID: 470758, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.28999996
-      objectReference: {fileID: 0}
-    - target: {fileID: 470758, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 470758, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0.24610315
-      objectReference: {fileID: 0}
-    - target: {fileID: 470758, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0.12260446
-      objectReference: {fileID: 0}
-    - target: {fileID: 470758, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0.031410202
-      objectReference: {fileID: 0}
-    - target: {fileID: 470758, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.96094483
-      objectReference: {fileID: 0}
-    - target: {fileID: 470758, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 4980a835d97e8491eba02ff454229288, type: 2}
-  m_IsPrefabParent: 0
 --- !u!4 &1125051169 stripped
 Transform:
   m_PrefabParentObject: {fileID: 428158, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
@@ -2284,6 +2238,10 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 400404, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
   m_IsPrefabParent: 0
@@ -2448,10 +2406,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 475698, guid: 89a892c7b8c0949198d2287dc4d1de14, type: 2}
   m_PrefabInternal: {fileID: 1654505091}
---- !u!4 &1916132489 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 428158, guid: e213470197c594b9093c0764dc7f0a3d, type: 2}
-  m_PrefabInternal: {fileID: 934316887}
 --- !u!1001 &1918011836
 Prefab:
   m_ObjectHideFlags: 0
