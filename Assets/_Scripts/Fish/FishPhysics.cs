@@ -72,7 +72,7 @@ public class FishPhysics : MonoBehaviour
 
     public void ToggleBlow()
     {
-        if (Time.time < lastActionTime + cooldown) {
+        if (lastActionTime != 0 && Time.time < lastActionTime + cooldown) {
             return;
         }
 
