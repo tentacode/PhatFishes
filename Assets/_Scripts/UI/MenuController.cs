@@ -91,10 +91,10 @@ public class MenuController : MonoBehaviour
         SwitchToGame(4);
     }
 
-    void SwitchToGame(int playerNumber)
+    void SwitchToGame(int playerCount)
     {
+        PlayerPrefs.SetInt("playerCount", playerCount);
         SceneManager.LoadScene("Game");
-        SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
     }
 
     public void Exit()

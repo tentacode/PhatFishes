@@ -6,13 +6,15 @@ public class FishHealth : MonoBehaviour
     public float invulnerabilityFrame = 1.0f;
     public Color invulnerableColor = Color.red;
 
-    private int health = 3;
+    private int health = 1;
     private float lastHitTime = 0;
     private SpriteRenderer spriteRenderer;
+    private GameManager gameManager;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        gameManager = GameObject.Find("Game").GetComponent<GameManager>();
     }
 
     void Update()
@@ -42,7 +44,7 @@ public class FishHealth : MonoBehaviour
 
     void Hurt()
     {
-        if (IsInvulnerable() || health == 0) {
+        if (IsInvulnerable() || health == 0 || gameManager.IsGameEnded()) {
             return;
         }
 
