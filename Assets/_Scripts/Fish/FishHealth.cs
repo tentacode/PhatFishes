@@ -6,7 +6,7 @@ public class FishHealth : MonoBehaviour
     public float invulnerabilityFrame = 1.0f;
     public Color invulnerableColor = Color.red;
 
-    private int health = 1;
+    private int health = 3;
     private float lastHitTime = 0;
     private SpriteRenderer spriteRenderer;
     private GameManager gameManager;
