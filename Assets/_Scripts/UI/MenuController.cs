@@ -37,23 +37,13 @@ public class MenuController : MonoBehaviour
 
     void InitPlayerNames()
     {
-        if (PlayerPrefs.HasKey("Player1Name")) {
-            player1Name.text = PlayerPrefs.GetString("Player1Name");
-        }
-
-        if (PlayerPrefs.HasKey("Player2Name")) {
-            player2Name.text = PlayerPrefs.GetString("Player2Name");
-        }
-
-        if (PlayerPrefs.HasKey("Player3Name")) {
-            player3Name.text = PlayerPrefs.GetString("Player3Name");
-        }
-
-        if (PlayerPrefs.HasKey("Player4Name")) {
-            player4Name.text = PlayerPrefs.GetString("Player4Name");
-        }
+        player1Name.text = PlayerPrefs.GetString("Player1Name", "Fish 1");
+        player2Name.text = PlayerPrefs.GetString("Player2Name", "Fish 2");
+        player3Name.text = PlayerPrefs.GetString("Player3Name", "Fish 3");
+        player4Name.text = PlayerPrefs.GetString("Player4Name", "Fish 4");
 
         isSetup = false;
+        SetPlayerNames();
     }
 
     void Update()

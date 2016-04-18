@@ -56,7 +56,6 @@ public class FishPhysics : MonoBehaviour
 
     void Blow()
     {
-        Debug.Log("Play");
         audioSource.Stop();
         audioSource.clip = blowAudioClip;
         audioSource.Play();
