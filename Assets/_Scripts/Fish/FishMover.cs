@@ -16,6 +16,13 @@ public class FishMover : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    void Update()
+    {
+        if (rb.velocity != Vector2.zero) {
+            spriteRenderer.flipX = true;
+        }
+    }
+
     public void Move(float horizontalValue, float verticalValue)
     {
         if (horizontalValue != 0) {
