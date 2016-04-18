@@ -101,6 +101,12 @@ public class GameManager : MonoBehaviour
 
     void Win(GameObject winner)
     {
+        if (winner.GetComponent<FishPhysics>().IsShrinked()) {
+            winner.GetComponent<Animator>().SetTrigger("WinShrink");
+        } else {
+            winner.GetComponent<Animator>().SetTrigger("WinBig");
+        }
+
         cameraController.Focus(winner);
         endGameText.text = randomWinTexts[Random.Range(0, randomWinTexts.Count)];
         endGameUI.SetActive(true);

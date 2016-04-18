@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f91d793d7e61d4802867b795b5f09a2c
-timeCreated: 1460823143
+timeCreated: 1460979556
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,6 +22,10 @@ TextureImporter:
     21300030: phatfish_7
     21300032: phatfish_8
     21300034: phatfish_9
+    21300036: phatfish_10
+    21300038: phatfish_11
+    21300040: phatfish_12
+    21300042: phatfish_13
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -252,6 +256,82 @@ TextureImporter:
         - {x: 6, y: -8}
         - {x: 16, y: -5}
         - {x: 16, y: 9}
+    - name: phatfish_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 15}
+        - {x: -15, y: 10}
+        - {x: -15, y: -15}
+        - {x: 8, y: -15}
+        - {x: 16, y: -13}
+        - {x: 16, y: 14}
+        - {x: 15, y: 15}
+    - name: phatfish_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 15}
+        - {x: -4, y: 15}
+        - {x: -10, y: 14}
+        - {x: -15, y: 10}
+        - {x: -15, y: -7}
+        - {x: -12, y: -15}
+        - {x: 6, y: -15}
+        - {x: 14, y: -10}
+        - {x: 16, y: -4}
+        - {x: 16, y: 14}
+    - name: phatfish_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 9}
+        - {x: -16, y: 3}
+        - {x: -16, y: -3}
+        - {x: -12, y: -8}
+        - {x: 6, y: -8}
+        - {x: 16, y: -5}
+        - {x: 16, y: 9}
+    - name: phatfish_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 9}
+        - {x: -16, y: 4}
+        - {x: -16, y: -3}
+        - {x: -9, y: -8}
+        - {x: 4, y: -8}
+        - {x: 16, y: -6}
+        - {x: 16, y: 7}
+        - {x: 7, y: 9}
     outline: []
   spritePackingTag: 
   userData: 
