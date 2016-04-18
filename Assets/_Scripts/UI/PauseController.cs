@@ -4,9 +4,11 @@ using UnityEngine.SceneManagement;
 public class PauseController : MonoBehaviour
 {
     public GameObject pauseMenu;
+    private GameManager gameManager;
 
 	void Start()
 	{
+        gameManager = GameObject.Find("Game").GetComponent<GameManager>();
         Resume();
 	}
 
@@ -42,10 +44,20 @@ public class PauseController : MonoBehaviour
 
 	void Update()
 	{
-        if (Input.GetButtonDown("MenuCancel") || Input.GetKeyDown("tab")) {
+        if (gameManager.IsGameEnded()) {
             if (pauseMenu.activeSelf) {
                 Resume();
+            }
+
+            return;
+        }
+
+        if (Input.GetButtonDown("MenuCancel") || Input.GetKeyDown("tab")) {
+            if (pauseMenu.activeSelf) {
+                Cursor.visible = false;
+                Resume();
             } else {
+                Cursor.visible = true;
                 Pause();
             }
         }

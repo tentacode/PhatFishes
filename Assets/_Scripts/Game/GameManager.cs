@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
 
 	void Awake()
 	{
+        Cursor.visible = false;
         endGameUI.SetActive(false);
         SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
 
@@ -82,6 +83,7 @@ public class GameManager : MonoBehaviour
     void EndGame()
     {
         gameEnded = true;
+        Cursor.visible = true;
 
         if (CountAlivePlayers() == 0) {
             Draw();

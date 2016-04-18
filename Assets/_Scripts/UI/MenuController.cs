@@ -15,13 +15,22 @@ public class MenuController : MonoBehaviour
     public InputField player3Name;
     public InputField player4Name;
 
+    public Sprite cursorSprite;
+
     private bool isSetup = true;
 
     void Start()
     {
-        InitPlayerNames();
+        GameObject.Find("SoundManager").GetComponent<SoundManager>().PlayIntroMusic();
 
+        InitPlayerNames();
+        SetMouseCursor();
         SwitchToMainMenu();
+    }
+
+    void SetMouseCursor()
+    {
+        Cursor.SetCursor(cursorSprite.texture, new Vector2(24, 0), CursorMode.ForceSoftware);
     }
 
     void InitPlayerNames()
