@@ -57,8 +57,8 @@ InputManager:
     m_Name: P2Horizontal
     descriptiveName: 'Player 2 : Move right'
     descriptiveNegativeName: 'Player 2 : Move left '
-    negativeButton: f
-    positiveButton: h
+    negativeButton: left
+    positiveButton: right
     altNegativeButton: 
     altPositiveButton: 
     gravity: 100
@@ -73,8 +73,8 @@ InputManager:
     m_Name: P2Vertical
     descriptiveName: 'Player 2 : Move down'
     descriptiveNegativeName: 'Player 2 : Move up'
-    negativeButton: g
-    positiveButton: t
+    negativeButton: down
+    positiveButton: up
     altNegativeButton: 
     altPositiveButton: 
     gravity: 100
@@ -90,7 +90,7 @@ InputManager:
     descriptiveName: 'Player 2 : Action'
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: y
+    positiveButton: right alt
     altNegativeButton: 
     altPositiveButton: 
     gravity: 1000
@@ -153,8 +153,8 @@ InputManager:
     m_Name: P4Horizontal
     descriptiveName: 'Player 4 : Move right'
     descriptiveNegativeName: 'Player 4 : Move left '
-    negativeButton: left
-    positiveButton: right
+    negativeButton: f
+    positiveButton: h
     altNegativeButton: 
     altPositiveButton: 
     gravity: 100
@@ -169,8 +169,8 @@ InputManager:
     m_Name: P4Vertical
     descriptiveName: 'Player 4 : Move down'
     descriptiveNegativeName: 'Player 4 : Move up'
-    negativeButton: down
-    positiveButton: up
+    negativeButton: g
+    positiveButton: t
     altNegativeButton: 
     altPositiveButton: 
     gravity: 100
@@ -186,7 +186,7 @@ InputManager:
     descriptiveName: 'Player 4 : Action'
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: right alt
+    positiveButton: y
     altNegativeButton: 
     altPositiveButton: 
     gravity: 1000
