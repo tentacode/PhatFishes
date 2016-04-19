@@ -43,7 +43,8 @@ public class JellyfishMover : MonoBehaviour
         }
 
         foreach (GameObject player in players) {
-            if (player.GetComponent<FishHealth>().GetHealth() > 0) {
+            var fishHealth = player.GetComponent<FishHealth>();
+            if (fishHealth != null && fishHealth.GetHealth() > 0) {
                 alivePlayers.Add(player);
             }
         }

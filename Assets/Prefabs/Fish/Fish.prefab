@@ -263,6 +263,7 @@ MonoBehaviour:
   horizontalSpeed: 10
   verticalSpeed: 10
   rotationSpeed: 10
+  maxVelocity: 100
 --- !u!114 &11489052
 MonoBehaviour:
   m_ObjectHideFlags: 1

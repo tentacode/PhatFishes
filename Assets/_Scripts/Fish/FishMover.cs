@@ -9,6 +9,7 @@ public class FishMover : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     public float rotationSpeed = 1.0f;
+    public float maxVelocity = 20;
 
     void Start()
     {
@@ -39,5 +40,8 @@ public class FishMover : MonoBehaviour
 
         var currentZRotation = transform.rotation.eulerAngles.z;
         spriteRenderer.flipY = currentZRotation > 90 && currentZRotation <= 270;
+
+
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
     }
 }
