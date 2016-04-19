@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: daea2ad1a21714ce3ba2441f5a0d5691
+timeCreated: 1461026229
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mine_0
+    21300002: mine_1
+    21300004: mine_2
+    21300006: mine_3
+    21300008: mine_4
+    21300010: mine_5
+    21300012: mine_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: mine_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -13, y: 3}
+        - {x: -13, y: -8}
+        - {x: -7, y: -13}
+        - {x: 2, y: -13}
+        - {x: 12, y: -8}
+        - {x: 13, y: -3}
+        - {x: 13, y: 3}
+        - {x: 4, y: 13}
+    - name: mine_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -13, y: 3}
+        - {x: -13, y: -8}
+        - {x: -7, y: -13}
+        - {x: 2, y: -13}
+        - {x: 12, y: -8}
+        - {x: 13, y: -3}
+        - {x: 13, y: 3}
+        - {x: 4, y: 13}
+    - name: mine_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -13, y: 3}
+        - {x: -13, y: -8}
+        - {x: -7, y: -13}
+        - {x: 2, y: -13}
+        - {x: 12, y: -8}
+        - {x: 13, y: -3}
+        - {x: 13, y: 3}
+        - {x: 4, y: 13}
+    - name: mine_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -14}
+        - {x: -10, y: -16}
+        - {x: -5, y: -12}
+        - {x: -3, y: -16}
+        - {x: 3, y: -16}
+        - {x: 14, y: -12}
+        - {x: 16, y: -7}
+        - {x: 16, y: 9}
+        - {x: 11, y: 16}
+    - name: mine_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: 12, y: 5}
+        - {x: 14, y: 2}
+        - {x: 16, y: 3}
+        - {x: 16, y: 6}
+        - {x: 14, y: 7}
+    - name: mine_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -15, y: 12}
+        - {x: -15, y: -15}
+        - {x: 8, y: -15}
+        - {x: 13, y: -7}
+        - {x: 13, y: 9}
+        - {x: 7, y: 16}
+      - - {x: 11, y: -13}
+        - {x: 14, y: -12}
+        - {x: 14, y: -9}
+        - {x: 11, y: -8}
+        - {x: 9, y: -10}
+      - - {x: 11, y: 4}
+        - {x: 14, y: 5}
+        - {x: 14, y: 8}
+        - {x: 11, y: 9}
+        - {x: 9, y: 7}
+    - name: mine_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

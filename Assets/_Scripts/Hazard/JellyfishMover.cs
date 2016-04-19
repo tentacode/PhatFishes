@@ -30,6 +30,18 @@ public class JellyfishMover : MonoBehaviour
         var players = GameObject.FindGameObjectsWithTag("Player");
         List<GameObject> alivePlayers = new List<GameObject>();
 
+        Vector3 targetPosition;
+        if (players.Length == 0) {
+                int directionX = Random.value < 0.5f ? -1 : +1;
+                int directionY = Random.value < 0.5f ? -1 : +1;
+                targetPosition = new Vector3(Random.value * directionX * 100, Random.value * 100  * directionY, 0);
+                JumpToTarget(targetPosition);
+
+                Invoke("JumpToNearestTarget", jumpFrequency);
+
+                return;
+        }
+
         foreach (GameObject player in players) {
             if (player.GetComponent<FishHealth>().GetHealth() > 0) {
                 alivePlayers.Add(player);
@@ -41,7 +53,10 @@ public class JellyfishMover : MonoBehaviour
             players[Random.Range(0, players.Length)]
         ;
 
-        JumpToTarget(target);
+
+        targetPosition = target.transform.position;
+
+        JumpToTarget(targetPosition);
 
         Invoke("JumpToNearestTarget", jumpFrequency);
     }
@@ -51,11 +66,11 @@ public class JellyfishMover : MonoBehaviour
         isJumping = false;
     }
 
-    void JumpToTarget(GameObject target)
+    void JumpToTarget(Vector3 targetPosition)
     {
-        Vector2 direction = (target.transform.position - transform.position).normalized;
+        Vector2 direction = (targetPosition - transform.position).normalized;
         direction.x = direction.x * jumpWidth;
-        direction.y = transform.position.y > target.transform.position.y ? -0.5f * jumpHeight : jumpHeight;
+        direction.y = transform.position.y > targetPosition.y ? -0.5f * jumpHeight : jumpHeight;
 
         rb.velocity = direction;
     }
