@@ -27,8 +27,8 @@ InputManager:
     descriptiveNegativeName: 'Player 1 : Move up'
     negativeButton: s
     positiveButton: z
-    altNegativeButton: w
-    altPositiveButton: 
+    altNegativeButton: 
+    altPositiveButton: w
     gravity: 100
     dead: 0.001
     sensitivity: 100
