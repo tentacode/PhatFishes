@@ -8,9 +8,24 @@ public class PauseController : MonoBehaviour
 
 	void Start()
 	{
+        #if UNITY_EDITOR
+        if (UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.WebGL) {
+            TweakWebGL();
+        }
+        #else
+        if (Application.platform == RuntimePlatform.WebGLPlayer) {
+            TweakWebGL();
+        }
+        #endif
+
         gameManager = GameObject.Find("Game").GetComponent<GameManager>();
         Resume();
 	}
+
+    void TweakWebGL()
+    {
+        GameObject.Find("QuitGameButton").SetActive(false);
+    }
 
     public void Resume()
     {
@@ -28,6 +43,7 @@ public class PauseController : MonoBehaviour
 
     public void Restart()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Menu");
     }
 

@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 ﻿using UnityEngine.SceneManagement;
 ﻿using UnityEngine.UI;
-﻿using UnityEngine.Serialization;
 
 public class MenuController : MonoBehaviour
 {
@@ -9,30 +8,41 @@ public class MenuController : MonoBehaviour
     public GameObject mainMenu;
     public GameObject optionMenu;
     public GameObject gameSetupMenu;
+    public GameObject fullscreenButton;
 
     public InputField player1Name;
     public InputField player2Name;
     public InputField player3Name;
     public InputField player4Name;
 
-    public Sprite cursorSprite;
-
     private bool isSetup = true;
     private SoundManager soundManager;
 
     void Start()
     {
+        fullscreenButton.SetActive(false);
+
+        #if UNITY_EDITOR
+        if (UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.WebGL) {
+            TweakWebGL();
+        }
+        #else
+        if (Application.platform == RuntimePlatform.WebGLPlayer) {
+            TweakWebGL();
+        }
+        #endif
+
         soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
         soundManager.PlayIntroMusic();
 
         InitPlayerNames();
-        SetMouseCursor();
         SwitchToMainMenu();
     }
 
-    void SetMouseCursor()
+    void TweakWebGL()
     {
-        Cursor.SetCursor(cursorSprite.texture, new Vector2(24, 0), CursorMode.ForceSoftware);
+        GameObject.Find("QuitButton").SetActive(false);
+        fullscreenButton.SetActive(true);
     }
 
     void InitPlayerNames()
